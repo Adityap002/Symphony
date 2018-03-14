@@ -36,7 +36,7 @@ public class POMKeximBankHP {
 	public void clickOnEmpBtn() {
 		empBtn.click();
 	}
-//Click on logout button
+
 	public void clickOnLogotBtn() {
 		Logout.click();
 	}

@@ -16,7 +16,7 @@ public class POMTestCaseExe {
 		
 		
 		//pageFactory method
-		POMLoginHP login	= PageFactory.initElements(driver, POMLoginHP.class);
+		POMLoginHP login = PageFactory.initElements(driver, POMLoginHP.class);
 		POMLogoutandQuitBro logoutandQuitBro = PageFactory.initElements(driver, POMLogoutandQuitBro.class);
 		POMKeximBankHP homepageButton = PageFactory.initElements(driver, POMKeximBankHP.class);
 		POMNewBranchHP newBranchCreate	= PageFactory.initElements(driver, POMNewBranchHP.class);
