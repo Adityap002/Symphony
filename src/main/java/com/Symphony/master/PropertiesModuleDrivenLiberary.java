@@ -18,7 +18,7 @@ public class PropertiesModuleDrivenLiberary {
 
 	public void openApp() throws IOException {
 
-		String filepath = "C:\\Users\\aditya.p\\git\\Symphony\\src\\main\\java\\com\\Symphony\\properties\\Symphony.properties";
+		String filepath = "C:\\Users\\Aditya\\git\\Symphony\\src\\main\\java\\com\\Symphony\\properties\\Symphony.properties";
 
 		prop = new Properties();
 		fis = new FileInputStream(filepath);

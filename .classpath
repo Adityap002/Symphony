@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/java"/>
-	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry excluding="com/Symphony/jars/" including="**/*.java" kind="src" path="src/main/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-java/2.53.0/selenium-java-2.53.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-chrome-driver/2.53.0/selenium-chrome-driver-2.53.0.jar"/>
@@ -33,6 +33,15 @@
 	<classpathentry kind="var" path="M2_REPO/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/apache/poi/poi/3.17/poi-3.17.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO"/>
+	<classpathentry kind="lib" path="C:/Users/Aditya/git/Symphony/src/main/java/com/Symphony/jars/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aditya/git/Symphony/src/main/java/com/Symphony/jars/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aditya/git/Symphony/src/main/java/com/Symphony/jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aditya/git/Symphony/src/main/java/com/Symphony/jars/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aditya/git/Symphony/src/main/java/com/Symphony/jars/poi-examples-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aditya/git/Symphony/src/main/java/com/Symphony/jars/poi-excelant-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aditya/git/Symphony/src/main/java/com/Symphony/jars/poi-ooxml-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aditya/git/Symphony/src/main/java/com/Symphony/jars/poi-ooxml-schemas-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aditya/git/Symphony/src/main/java/com/Symphony/jars/poi-scratchpad-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aditya/git/Symphony/src/main/java/com/Symphony/jars/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
