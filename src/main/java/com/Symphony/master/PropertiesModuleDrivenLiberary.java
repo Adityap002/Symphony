@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class PropertiesLiberaryModule {
+public class PropertiesModuleDrivenLiberary {
 	public static WebDriver driver;
 	public static Alert alert;
 	public static FileInputStream fis;
@@ -18,7 +18,7 @@ public class PropertiesLiberaryModule {
 
 	public void openApp() throws IOException {
 
-		String filepath = "C:\\Users\\Aditya\\Symphony\\src\\main\\java\\com\\Symphony\\properties\\Symphony.properties";
+		String filepath = "C:\\Users\\aditya.p\\git\\Symphony\\src\\main\\java\\com\\Symphony\\properties\\Symphony.properties";
 
 		prop = new Properties();
 		fis = new FileInputStream(filepath);

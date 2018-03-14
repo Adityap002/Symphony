@@ -3,7 +3,7 @@ package com.Symphony.master;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class LoginHPPOM {
+public class POMLoginHP {
 
 	@FindBy(id = "txtuId")
 	WebElement username;
@@ -24,7 +24,6 @@ public class LoginHPPOM {
 
 	public void loginBtn() {
 		loginBtn.click();
-		;
 	}
 
 }

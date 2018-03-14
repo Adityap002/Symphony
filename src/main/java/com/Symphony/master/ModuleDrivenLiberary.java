@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class LiberaryModule {
+public class ModuleDrivenLiberary {
 	public static WebDriver driver;
 	public static Alert alert;
 

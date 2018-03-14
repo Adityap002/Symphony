@@ -3,10 +3,11 @@ package com.Symphony.master;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class KeximBankHPPOM {
+public class POMKeximBankHP {
 
 	@FindBy(xpath = "//a[@href='adminflow.aspx']")
 	WebElement homePage;
+
 
 	@FindBy(xpath = "//a[@href='admin_banker_master.aspx']")
 	WebElement branchBTN;

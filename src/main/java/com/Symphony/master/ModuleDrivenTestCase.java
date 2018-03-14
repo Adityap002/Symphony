@@ -1,9 +1,9 @@
 package com.Symphony.master;
 
-public class TestCaseModuleDriven {
+public class ModuleDrivenTestCase {
 
 	public static void main(String[] args) throws Exception {
-		LiberaryModule lib = new LiberaryModule();
+		ModuleDrivenLiberary lib = new ModuleDrivenLiberary();
 		
 		lib.openApp("http://srssprojects.in/home.aspx");
 		
