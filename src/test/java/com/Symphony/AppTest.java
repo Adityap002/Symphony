@@ -1,6 +1,6 @@
 package com.Symphony;
 
-import com.Symphony.master.LiberaryModule;
+import com.Symphony.master.ModuleDrivenLiberary;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -32,7 +32,7 @@ public class AppTest extends TestCase {
 	 * @throws Exception 
 	 */
 	public void testApp() throws Exception {
-		LiberaryModule lib = new LiberaryModule();
+		ModuleDrivenLiberary lib = new ModuleDrivenLiberary();
 
 		lib.openApp("http://srssprojects.in/home.aspx");
 

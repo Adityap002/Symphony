@@ -1,9 +1,9 @@
 package com.Symphony.master;
 
-public class PropertiesTestCase {
+public class PropertiesModuleDrivenTestCase {
 
 	public static void main(String[] args) throws Exception {
-		PropertiesLiberaryModule propLib = new PropertiesLiberaryModule();
+		PropertiesModuleDrivenLiberary propLib = new PropertiesModuleDrivenLiberary();
 		
 		propLib.openApp();
 		
